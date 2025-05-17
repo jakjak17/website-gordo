@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔥 My Wild Work Experience</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(135deg, #ff4e50, #f9d423);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 80px 20px 60px;
+      text-align: center;
+      background: linear-gradient(135deg, #e60000, #ff5e62);
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    header h1 {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 4rem;
+      text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    section {
+      padding: 60px 20px;
+      display: flex;
+      justify-content: center;
+      animation: crazyBounce 1.5s ease;
+    }
+
+    @keyframes crazyBounce {
+      0% { transform: scale(0.9); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .skills-container {
+      background: rgba(255, 255, 255, 0.1);
+      border: 3px solid #ff3c38;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 900px;
+      width: 100%;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px #ff3c38;
+      transition: 0.3s;
+    }
+
+    .skills-container:hover {
+      transform: rotate(-1deg) scale(1.02);
+      box-shadow: 0 0 30px #ff5e62;
+    }
+
+    .skills-container h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: #fff;
+      position: relative;
+    }
+
+    .skills-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills-list li {
+      background: #ff5e62;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fff;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+
+    .skills-list li:hover {
+      background: #e60000;
+      transform: scale(1.1) rotate(1deg);
+      box-shadow: 0 8px 25px #e60000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #2c0000;
+      color: #fff;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      .skills-container h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Work Experience</h1>
+  </header>
+
+  <section>
+    <div class="skills-container">
+      <ul class="skills-list">
+        <li>Labor</li>
+        <li>Construction Worker</li>
+        <li>Dressmaking / Tailoring</li>
+      </ul>
+    
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="../index.html" style="text-decoration: none;">
+          <button style="
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #e60000, #ff5e62);
+            color: white;
+            box-shadow: 0 4px 15px rgba(255, 94, 98, 0.4);
+            cursor: pointer;
+            transition: all 0.3s ease;
+          ">
+            ⬅️ Back to Home
+          </button>
+        </a>
+      </div>
+    
+  </section>
+  <footer>
+    &copy; 2025  Gordo 
+  </footer>
+
+</body>
+</html>
